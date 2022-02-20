@@ -9,7 +9,7 @@ const returnUrl = (apiKey) => `http://api.scraperapi.com?api_key=${apiKey}&autop
 
 app.use(express.json());
 app.get('/',(req,res)=>{
-    res.send('Welcome to Amazon Web Scrapper API')
+    res.send('Welcome to Amazon Web Scrapper API by Harshaj Singh Parihar')
 });
 
 app.get('/products/:productId/reviews',async(req,res)=>{
